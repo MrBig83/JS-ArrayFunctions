@@ -12,9 +12,7 @@ mySecondLetterArray.forEach(function(currentValue){
 //Man pushar inte in en array i en array, utan snarare enskilda poster. Därför bör man loopa käll-arrayen och göra en push-funktion till mål-arrayen. På så vis pushas varje enkilld post in i mål-arrayen.
 
 // ==== Filter ==== // Filtrera ut önskat innehåll och returnerar ALLA.
-const result = myLetterArray.filter(function(letter){
-    return letter == "F"
-});
+const result = myLetterArray.filter((letter) => letter == "F"); //Förkortad function med =>. 
     console.log("Filter result (F): " + result);
 
 // ==== Map ==== // Mappa om (förändra) innehållet i arrayen.
