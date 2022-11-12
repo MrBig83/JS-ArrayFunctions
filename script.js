@@ -1,3 +1,5 @@
+//This is a collection of arrayFaunctions in JavaScript. All comments in the code are in Swedish. 
+
 const myLetterArray = ["M", "M", "M", "M", "F" , "F" , "F" , "F", "L" ];
 const mySecondLetterArray = ["K", "K", "K", "K"];
 const myNumberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
