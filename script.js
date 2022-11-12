@@ -37,7 +37,7 @@ const sortedArray = myNumberArray.sort((a, b) => {
 const myReduce = myNumberArray.reduce((acc, cur) => {
     return acc + cur;
 },0);
-    console.log(myReduce);
+    console.log("Summan av alla numeriska värden i arrayen: " + myReduce);
 
  // ==== Every ==== // Kollar om ALLA element passar ett specifikt sökvärde. Returnerar true/false.
  const myEvery = mySecondLetterArray.every((letter) => letter === "K" );
